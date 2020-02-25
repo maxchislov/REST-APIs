@@ -20,7 +20,7 @@ Assignment REST APIs
 
 
 # RUN TESTS
-There is a two options of run tests:
+There are two options of run tests:
 #### 1 Using the Postman:
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/98d1fe49ba8736de41ce)
