@@ -10,7 +10,7 @@ Assignment REST APIs
 | POST | [http://httpbin.org/post] | Check that: Status code is 200 (OK) |
 | POST | [http://httpbin.org/post] | Check that: Body matches string |
 | PUT | [http://httpbin.org/put] | Check that: Status code is 200 (OK) |
-| PUT | [hhttp://httpbin.org/put] | Check that: Username is correct |
+| PUT | [http://httpbin.org/put] | Check that: Username is correct |
 | DELETE | [https://httpbin.org/delete] | Check that: Status code is 200 (OK) |
 | DELETE | [https://httpbin.org/delete] | Check that: Response time is less than 5 second |
 | POST | [http://httpbin.org/response-headers?freeform=Free_1] | Check that: Status code is 200 (OK) |
