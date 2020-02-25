@@ -6,7 +6,7 @@ Assignment REST APIs
 | Method | URL | Test |
 | ------ | ------ |----- |
 | GET | [http://httpbin.org/get] | Check that: the request query parameters is completed successfully |
-| GET | [http://httpbin.org/get] | Check that: JSON value is match expectation on the request query parameters |
+| GET | [http://httpbin.org/get] | Check that: JSON value matches expectation on the request query parameters |
 | POST | [http://httpbin.org/post] | Check that: the posting of parameters is completed successfully |
 | POST | [http://httpbin.org/post] | Check that: Body matches string on the request post parameters |
 | PUT | [http://httpbin.org/put] | Check that: the put parameters is completed successfully |
