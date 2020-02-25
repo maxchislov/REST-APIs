@@ -3,33 +3,28 @@ Assignment REST APIs
 
 ### List of APIs tests:
 
-* GET http://httpbin.org/get
-Check that: Status code is 200 (OK)
-Check that: JSON value is match expectation
+| Method | URL | Test |
+| ------ | ------ |----- |
+| GET | [http://httpbin.org/get][PlDb] | Check that: Status code is 200 (OK) |
+| GET | [http://httpbin.org/get][PlDb] | Check that: JSON value is match expectation |
+
+| POST | [http://httpbin.org/post][PlDb] | Check that: Status code is 200 (OK) |
+| POST | [http://httpbin.org/post][PlDb] | Check that: Body matches string |
+
+| PUT | [http://httpbin.org/put][PlDb] | Check that: Status code is 200 (OK) |
+| PUT | [hhttp://httpbin.org/put][PlDb] | Check that: Username is correct |
+
+| DELETE | [https://httpbin.org/delete][PlDb] | Check that: Status code is 200 (OK) |
+| DELETE | [https://httpbin.org/delete][PlDb] | Check that: Response time is less than 5 second |
+
+| POST | [http://httpbin.org/response-headers?freeform=Free_1][PlDb] | Check that: Status code is 200 (OK) |
+| POST | [http://httpbin.org/response-headers?freeform=Free_1][PlDb] | Check that: Body matches string |
+
+| GET | [https://httpbin.org/404][PlDb] | Check that: Status code is 404, as expected - not found |
+| GET | [https://httpbin.org/404][PlDb] | Check that: Test error 404 handling: Error message with the error description is in body response |
 
 
-* POST http://httpbin.org/post
-Check that: Status code is 200 (OK)
-Check that: Body matches string
-
-* PUT http://httpbin.org/put
-Check that: Status code is 200 (OK)
-Check that: Username is correct
-
-* DELETE https://httpbin.org/delete
-Check that: Status code is 200 (OK)
-Check that: Response time is less than 5 second
-
-* POST http://httpbin.org/response-headers?freeform=Free_1
-Check that: Status code is 200 (OK)
-Check that: Body matches string
-
-* GET https://httpbin.org/404
-Check that: Status code is 404, as expected - not found
-Check that: Test error 404 handling: Error message with the error description is in body response
-
-
-#RUN TESTS
+# RUN TESTS
 There is a two options of run tests:
 #### 1 Using the Postman:
 
@@ -37,7 +32,7 @@ There is a two options of run tests:
 
 You can download an opensource app (native or or Web View)
 
-  1.Open App (postman) and sing in
+  1. Open App (postman) and sing in
   2. Find the collection "Assignment Test"
   3. Run the collection
  
@@ -52,4 +47,4 @@ You can download an opensource app (native or or Web View)
   3. Run the test using the comand: 
     ```sh
      $ newman run https://www.postman.com/collections/98d1fe49ba8736de41ce
-  ```
+    ```
