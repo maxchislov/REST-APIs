@@ -35,9 +35,9 @@ There are two options of run tests:
   1. Download node.js in case you dont have it: 
   https://nodejs.org/es/download/
   2. Install the newman from command line:
-  ```sh
+    ```sh
      $ npm install -g newman
-  ```
+    ```
   3. Run the test using the comand: 
     ```sh
        $ newman run https://www.postman.com/collections/98d1fe49ba8736de41ce
