@@ -1,7 +1,7 @@
 # REST-APIs
 Assignment REST APIs
 
-### The list of APIs tests:
+### List of APIs tests:
 
 * GET http://httpbin.org/get
 Check that: Status code is 200 (OK)
@@ -29,9 +29,9 @@ Check that: Status code is 404, as expected - not found
 Check that: Test error 404 handling: Error message with the error description is in body response
 
 
-
+#RUN TESTS
 There is a two options of run tests:
-##### 1 Using the Postman:
+#### 1 Using the Postman:
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/98d1fe49ba8736de41ce)
 
@@ -42,10 +42,14 @@ You can download an opensource app (native or or Web View)
   3. Run the collection
  
 
-##### 2 Using the command line
+#### 2 Using the command line
   1. Download node.js in case you dont have it: 
   https://nodejs.org/es/download/
   2. Install the newman from command line:
-  <b>$ npm install -g newman<b>
+  ```sh
+     $ npm install -g newman
+  ```
   3. Run the test using the comand: 
-  <b>newman run https://www.postman.com/collections/98d1fe49ba8736de41ce<b>
+    ```sh
+     $ newman run https://www.postman.com/collections/98d1fe49ba8736de41ce
+  ```
