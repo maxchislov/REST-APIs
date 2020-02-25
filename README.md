@@ -5,17 +5,17 @@ Assignment REST APIs
 
 | Method | URL | Test |
 | ------ | ------ |----- |
-| GET | [http://httpbin.org/get] | Check that: Status code is 200 (OK) |
-| GET | [http://httpbin.org/get] | Check that: JSON value is match expectation |
-| POST | [http://httpbin.org/post] | Check that: Status code is 200 (OK) |
-| POST | [http://httpbin.org/post] | Check that: Body matches string |
-| PUT | [http://httpbin.org/put] | Check that: Status code is 200 (OK) |
-| PUT | [http://httpbin.org/put] | Check that: Username is correct |
-| DELETE | [https://httpbin.org/delete] | Check that: Status code is 200 (OK) |
-| DELETE | [https://httpbin.org/delete] | Check that: Response time is less than 5 second |
-| POST | [http://httpbin.org/response-headers?freeform=Free_1] | Check that: Status code is 200 (OK) |
-| POST | [http://httpbin.org/response-headers?freeform=Free_1] | Check that: Body matches string |
-| GET | [https://httpbin.org/404] | Check that: Status code is 404, as expected - not found |
+| GET | [http://httpbin.org/get] | Check that: the request query parameters is completed successfully |
+| GET | [http://httpbin.org/get] | Check that: JSON value is match expectation on the request query parameters |
+| POST | [http://httpbin.org/post] | Check that: the posting of parameters is completed successfully |
+| POST | [http://httpbin.org/post] | Check that: Body matches string on the request post parameters |
+| PUT | [http://httpbin.org/put] | Check that: the put parameters is completed successfully |
+| PUT | [http://httpbin.org/put] | Check that: Username is correct on the request put parameters |
+| DELETE | [https://httpbin.org/delete] | Check that: Checks that deletion is completed successfully |
+| DELETE | [https://httpbin.org/delete] | Check that: Checks that deletion time is less than 5 second |
+| POST | [http://httpbin.org/response-headers?freeform=Free_1] | Check that: A set of response headers from the query is returning successfully|
+| POST | [http://httpbin.org/response-headers?freeform=Free_1] | Check that: Body matches string on a return of a set of response headers from the query string |
+| GET | [https://httpbin.org/404] | Check that: Status code is 404, as expected - not found on a not excisting request|
 | GET | [https://httpbin.org/404] | Check that: Test error 404 handling: Error message with the error description is in body response |
 
 
