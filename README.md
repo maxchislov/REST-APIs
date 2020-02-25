@@ -23,13 +23,12 @@ Assignment REST APIs
 There are two options of run tests:
 #### 1 Using the Postman:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/98d1fe49ba8736de41ce)
-
-You can download an opensource app (native or or Web View)
-
-  1. Open App (postman) and sing in
-  2. Find the collection "Assignment Test"
-  3. Run the collection
+  1. Click the button
+  [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/98d1fe49ba8736de41ce)
+   *You can download an opensource app (native or or Web View)*
+  2. Open App (postman) and sing in
+  3. Find the collection "Assignment Test"
+  4. Run the collection
  
 
 #### 2 Using the command line
