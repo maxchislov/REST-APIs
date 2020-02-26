@@ -26,8 +26,8 @@ There are two options of run tests:
   1. Click the button
   [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/98d1fe49ba8736de41ce)  
    *You can download an opensource app (native or or Web View)*
-  2. Open App (postman) and sing in
-  3. Open collections and find the collection "Assignment Test"
+  2. Open App (postman)
+  3. Open collections and find the collection "httpbin tests"
   4. Run the collection
  
 
